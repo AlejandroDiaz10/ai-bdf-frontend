@@ -57,7 +57,7 @@ function App() {
     formData.append('file', file);
   
     try {
-      const response = await fetch('https://anteater-smiling-typically.ngrok-free.app/api/csv-predict', {
+      const response = await fetch('https://anteater-smiling-typically.ngrok-free.app/api/csv-predict-nb', {
         method: 'POST',
         body: formData,
       });

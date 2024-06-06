@@ -82,7 +82,7 @@ export const Individual = () => {
   
     // Intenta enviar el dato al endpoint
     try {
-      const response = await fetch('https://anteater-smiling-typically.ngrok-free.app/api/single-predict', {
+      const response = await fetch('https://anteater-smiling-typically.ngrok-free.app/api/single-predict-nb', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
